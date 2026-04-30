@@ -1,0 +1,5 @@
+# ds_cli 本地覆盖
+.ds-cli.local.yml
+
+# Node
+node_modules/

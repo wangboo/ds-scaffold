@@ -1,0 +1,6 @@
+# Data Sentinel 平台连接
+platform:
+  url: {{PLATFORM_URL}}
+
+# 关联的项目
+projects: []
