@@ -7,9 +7,9 @@ Data Sentinel 本地数据治理项目。
 - `metadata/` — 从 Data Sentinel 平台拉取的元数据（只读缓存）
   - `<project-name>/` — 每个关联项目的元数据
     - `project.json` — 项目基本信息
-    - `tables/*.sql` — 表 DDL
-    - `rules/*.csv` — 质控规则
-    - `sqls/*.toml` — 质控SQL
+    - `tables/<tag0>/<tag1>/<name>.sql` — 表 DDL，按类目归类
+    - `rules/<tag0>/<tag1>/<name>.csv` — 质控规则，按类目归类
+    - `sqls/<tag0>/<tag1>/<name>.csv` — 质控 SQL，按类目归类
 - `sql_exec/` — 质控批次得分明细（score-<batch-id>.csv）
 - `skills/` — Data Sentinel 官方 skills，供 Claude Code 使用
 
